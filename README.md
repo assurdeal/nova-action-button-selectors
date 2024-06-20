@@ -1,7 +1,7 @@
 ﻿# Laravel Nova action button selector
 
-[![Packagist Version](https://img.shields.io/packagist/v/lednerb/nova-action-button-selectors.svg?style=for-the-badge)](https://packagist.org/packages/lednerb/nova-action-button-selectors)
-[![Packagist Downloads](https://img.shields.io/packagist/dt/lednerb/nova-action-button-selectors.svg?style=for-the-badge)](https://packagist.org/packages/lednerb/nova-action-button-selectors)
+[![Packagist Version](https://img.shields.io/packagist/v/assurdeal/nova-action-button-selectors.svg?style=for-the-badge)](https://packagist.org/packages/assurdeal/nova-action-button-selectors)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/assurdeal/nova-action-button-selectors.svg?style=for-the-badge)](https://packagist.org/packages/assurdeal/nova-action-button-selectors)
 
 This package allows you to add buttons for Nova actions on the detail page instead having them all within the dropdown menu.
 
@@ -17,7 +17,7 @@ Also it fixes some styling issues.
 
 ## How to install
 ```
-composer require lednerb/nova-action-button-selectors
+composer require assurdeal/nova-action-button-selectors
 ```
 Detail page
 ![example_1](./docs/main_1.jpg)
@@ -32,7 +32,7 @@ In your Action class define the following trait:
 
 ```php
 ...
-use Lednerb\ActionButtonSelector\ShowAsButton;
+use Assurdeal\ActionButtonSelector\ShowAsButton;
 
 class MyAction extends Action
 {
