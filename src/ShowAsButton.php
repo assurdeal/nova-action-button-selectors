@@ -1,6 +1,8 @@
 <?php
 
-namespace Lednerb\ActionButtonSelector;
+declare(strict_types=1);
+
+namespace Assurdeal\ActionButtonSelector;
 
 trait ShowAsButton
 {
@@ -16,7 +18,7 @@ trait ShowAsButton
         return $this->showAsButton();
     }
 
-    public function showAsButton($show = true)
+    public function showAsButton(bool $show = true): self
     {
         return $this->withMeta(['showAsButton' => $show]);
     }

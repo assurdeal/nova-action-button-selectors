@@ -2,7 +2,6 @@
 
 [![Packagist Version](https://img.shields.io/packagist/v/lednerb/nova-action-button-selectors.svg?style=for-the-badge)](https://packagist.org/packages/lednerb/nova-action-button-selectors)
 [![Packagist Downloads](https://img.shields.io/packagist/dt/lednerb/nova-action-button-selectors.svg?style=for-the-badge)](https://packagist.org/packages/lednerb/nova-action-button-selectors)
-[![Codeberg](https://img.shields.io/badge/Codeberg-2185D0?style=for-the-badge&logo=Codeberg&logoColor=white)](https://codeberg.org/Lednerb/nova-action-button-selector)
 
 This package allows you to add buttons for Nova actions on the detail page instead having them all within the dropdown menu.
 
