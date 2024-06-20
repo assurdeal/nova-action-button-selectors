@@ -1,12 +1,15 @@
 {
-    "name": "lednerb/nova-action-button-selectors",
+    "name": "assurdeal/nova-action-button-selectors",
     "description": "A Laravel Nova asset.",
-    "keywords": [
-        "laravel",
-        "nova"
+    "keywords": ["laravel", "nova", "buttons", "action", "selectors"],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        }
     ],
     "license": "MIT",
-    "homepage": "https://lednerb.de",
+    "homepage": "https://github.com/assurdeal/nova-action-button-selectors",
     "authors": [
         {
             "name": "Sascha Brendel",
@@ -16,21 +19,26 @@
             "name": "Pitchayakit Pahamak",
             "email": "pitchayakit.p@gmail.com",
             "role": "Software Engineer"
+        },
+        {
+            "name": "Percy Mamedy",
+            "email": "percy.mamedy@assurdeal.com",
+            "role": "Lead Developer"
         }
     ],
     "require": {
-        "php": "^7.3|^8.0",
+        "php": "^8.0",
         "laravel/nova": "~4.0"
     },
     "autoload": {
         "psr-4": {
-            "Lednerb\\ActionButtonSelector\\": "src/"
+            "Assurdeal\\ActionButtonSelector\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Lednerb\\ActionButtonSelector\\AssetServiceProvider"
+                "Assurdeal\\ActionButtonSelector\\AssetServiceProvider"
             ]
         }
     },
